@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView android:id="@+id/wallpaper"
+        android:contentDescription="@string/img_wallpapper"
+        android:layout_width="fill_parent"
+        android:src="@drawable/wallpaper_azenhas"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:fitsSystemWindows="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:adjustViewBounds="false" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/set"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#99858585"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="@string/wallpaper_instructions"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"/>
+
+        <Gallery android:id="@+id/gallery"
+            android:background="#65000000"
+            android:verticalScrollbarPosition="left"
+            android:clipToPadding="false"
+            android:spacing="0dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wallarts</string>
+    <string name="action_settings">Settings</string>
+    <string name="wallpaper_instructions" >DEFINIR ARTE COMO PLANO DE FUNDO</string>
+    <string name="img_wallpapper">Imagem de Plano de Fundo</string>
+    <string name="img_tumbnail">Miniatura da Imagen</string>
+</resources>
